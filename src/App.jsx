@@ -4,6 +4,7 @@ import ReactAccordionUi from "./components/ReactAccordionUi.jsx";
 import TabUi from "./components/TabUi.jsx";
 import ProgressBarUi from "./components/ProgressBarUi.jsx";
 import CardCarouselUi from "./components/CardCarouselUi.jsx";
+import {GalleryWithFilters} from "./components/GalleryWithFilters.jsx";
 
 
 function App() {
@@ -13,7 +14,8 @@ function App() {
             <ReactAccordionUi/>
             <TabUi/>
             <ProgressBarUi title="Flowbite" percentage={100} />
-            <CardCarouselUi/>
+            {/*<CardCarouselUi/>*/}
+            <GalleryWithFilters/>
         </div>
     )
 }
