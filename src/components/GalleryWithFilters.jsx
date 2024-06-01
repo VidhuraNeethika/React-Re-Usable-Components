@@ -1,8 +1,11 @@
 'use client';
 
 import reactSvg from '../../public/vite.svg'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 export const GalleryWithFilters = () => {
+    AOS.init();
     return (<div className="w-full">
 
         {/*Filter  Buttons*/}
@@ -35,7 +38,7 @@ export const GalleryWithFilters = () => {
         </div>
 
         {/*Gallery*/}
-        <div className="w-full  max-w-[700px] grid grid-cols-3 gap-4 p-4">
+        <div className="w-full  max-w-[700px] grid grid-cols-3 gap-4 p-4" data-aos="fade-up">
                 <img src={reactSvg} alt="nature" className="object-cover col-span-1 rounded-lg overflow-clip aspect-square galleryItems nature"/>
                 <img src={reactSvg} alt="people" className="object-cover col-span-1 rounded-lg overflow-clip aspect-square galleryItems people nature"/>
                 <img src={reactSvg} alt="architecture" className="object-cover col-span-1 rounded-lg overflow-clip aspect-square galleryItems architecture nature"/>
