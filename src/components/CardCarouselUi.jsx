@@ -19,22 +19,22 @@ const CardCarouselUi = () => {
             <h2 className='mb-5 font-bold'>Slick Carousel</h2>
             <div className='mx-auto'>
                 <Slider {...settings}>
-                    <div className='h-20 bg-blue-400'>
+                    <div className='h-20 bg-gray-400 p-5 text-center font-bold h-44'>
                         <h3>1</h3>
                     </div>
-                    <div className='h-20 bg-indigo-400'>
+                    <div className='h-20 bg-gray-200 p-5 text-center font-bold h-44'>
                         <h3>2</h3>
                     </div>
-                    <div className='h-20 bg-blue-400'>
+                    <div className='h-20 bg-gray-400 p-5 text-center font-bold h-44'>
                         <h3>3</h3>
                     </div>
-                    <div className='h-20 bg-indigo-400'>
+                    <div className='h-20 bg-gray-200 p-5 text-center font-bold h-44'>
                         <h3>4</h3>
                     </div>
-                    <div className='h-20 bg-blue-400'>
+                    <div className='h-20 bg-gray-400 p-5 text-center font-bold h-44'>
                         <h3>5</h3>
                     </div>
-                    <div className='h-20 bg-indigo-400'>
+                    <div className='h-20 bg-gray-200 p-5 text-center font-bold h-44'>
                         <h3>6</h3>
                     </div>
                 </Slider>

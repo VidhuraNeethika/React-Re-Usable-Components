@@ -38,12 +38,12 @@ const ProgressBarUi = ({ title, percentage }) => {
             <h2 className='mb-5 font-bold'>Animated progress bar with react, tailwind and flowbite components</h2>
             <div ref={progressBarRef}>
                 <div className="flex justify-between mb-1">
-                    <span className="text-base font-medium text-blue-700 dark:text-white">{title}</span>
-                    <span className="text-sm font-medium text-blue-700 dark:text-white">{progress}%</span>
+                    <span className="text-base font-medium text-gray-700 dark:text-white">{title}</span>
+                    <span className="text-sm font-medium text-gray-700 dark:text-white">{progress}%</span>
                 </div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 dark:bg-gray-700">
                     <div
-                        className="bg-blue-600 h-2.5 rounded-full transition-all duration-700 ease-in-out"
+                        className="bg-gray-600 h-2.5 rounded-full transition-all duration-700 ease-in-out"
                         style={{width: `${progress}%`}}
                     ></div>
                 </div>

@@ -19,7 +19,7 @@ function App() {
                         <h1 className='my-16 font-bold text-center text-3xl'>Reusable Components with React and Tailwind CSS</h1>
                         <ReactAccordionUi/>
                         <TabUi/>
-                        <ProgressBarUi title="Flowbite" percentage={100}/>
+                        <ProgressBarUi title="Graphic Design" percentage={80}/>
                         <CardCarouselUi/>
                         <GalleryWithFilters/>
                         <Drawer/>
