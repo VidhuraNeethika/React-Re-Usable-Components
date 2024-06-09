@@ -8,7 +8,8 @@ const Tabs = () => {
     };
 
     return (
-        <div className='mt-24'>
+        <div className='mt-16'>
+            <h2 className='mb-5 font-bold'>Tabs with Tailwind</h2>
             <div className="mb-4">
                 <ul className="flex flex-wrap -mb-px text-sm font-medium text-center" id="default-tab" role="tablist">
                     <li className="me-2" role="presentation">
