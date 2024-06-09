@@ -14,26 +14,28 @@ const CardCarouselUi = () => {
     };
 
     return (
-        <Slider {...settings}>
-            <div className='h-20 bg-red-400'>
-                <h3>1</h3>
-            </div>
-            <div className='h-20 bg-red-400'>
-                <h3>2</h3>
-            </div>
-            <div className='h-20 bg-red-400'>
-                <h3>3</h3>
-            </div>
-            <div className='h-20 bg-red-400}'>
-                <h3>4</h3>
-            </div>
-            <div className='h-20 bg-red-400'>
-                <h3>5</h3>
-            </div>
-            <div className='h-20 bg-red-400'>
-                <h3>6</h3>
-            </div>
-        </Slider>
+        <div className='w-52 mx-auto'>
+            <Slider {...settings}>
+                <div className='h-20 bg-red-400'>
+                    <h3>1</h3>
+                </div>
+                <div className='h-20 bg-red-400'>
+                    <h3>2</h3>
+                </div>
+                <div className='h-20 bg-red-400'>
+                    <h3>3</h3>
+                </div>
+                <div className='h-20 bg-red-400}'>
+                    <h3>4</h3>
+                </div>
+                <div className='h-20 bg-red-400'>
+                    <h3>5</h3>
+                </div>
+                <div className='h-20 bg-red-400'>
+                    <h3>6</h3>
+                </div>
+            </Slider>
+        </div>
     );
 };
 
