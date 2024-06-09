@@ -7,6 +7,7 @@ import {GalleryWithFilters} from "./components/GalleryWithFilters.jsx";
 import {PageTransition} from "./components/PageTransition.jsx";
 import {StairTransition} from "./components/StairTransition.jsx";
 import { Drawer} from "./components/Drawer.jsx";
+import {BottomDrawer} from "./components/BottomDrawer.jsx";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
                         <CardCarouselUi/>
                         <GalleryWithFilters/>
                         <Drawer/>
+                        <BottomDrawer/>
                     </div>
                 </div>
             </PageTransition>
