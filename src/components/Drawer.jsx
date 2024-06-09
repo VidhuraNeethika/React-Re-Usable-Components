@@ -22,7 +22,7 @@ export const Drawer = () => {
                 </div>
 
                 <div
-                    className={`fixed bottom-0 left-0 right-0 z-40 w-full p-4 overflow-y-auto transition-transform bg-red-400 dark:bg-gray-800 rounded-t-3xl ${isDrawerOpen ? 'translate-y-0' : 'translate-y-full'}`}
+                    className={`fixed bottom-0 left-0 right-0 z-40 w-full p-4 overflow-y-auto transition-transform bg-gray-200 dark:bg-gray-800 rounded-t-3xl ${isDrawerOpen ? 'translate-y-0' : 'translate-y-full'}`}
                     tabIndex="-1"
                     aria-labelledby="drawer-bottom-label"
                     style={{transform: isDrawerOpen ? 'translateY(0)' : 'translateY(100%)'}}
