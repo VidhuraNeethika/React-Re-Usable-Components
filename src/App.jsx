@@ -8,12 +8,27 @@ import {PageTransition} from "./components/PageTransition.jsx";
 import {StairTransition} from "./components/StairTransition.jsx";
 import { Drawer} from "./components/Drawer.jsx";
 import {BottomDrawer} from "./components/BottomDrawer.jsx";
+import AnimatedCursor from "react-animated-cursor";
 
 function App() {
 
     return (
         <>
             <StairTransition/>
+            <AnimatedCursor
+                innerSize={8}
+                outerSize={35}
+                innerScale={1}
+                outerScale={2}
+                outerAlpha={0}
+                hasBlendMode={true}
+                innerStyle={{
+                    backgroundColor: 'black'
+                }}
+                outerStyle={{
+                    border: '2px solid black'
+                }}
+            />
             <PageTransition>
                 <div className='bg-gray-100'>
                     <div className='max-w-[1024px] mx-auto p-12 md:p-0 overflow-hidden'>
