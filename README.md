@@ -8,4 +8,5 @@
 * Top, Bottom, Left, Right Drawer : https://www.npmjs.com/package/react-modern-drawer?activeTab=readme
 * AOS : https://michalsnik.github.io/aos/
 * Page Transition : https://www.framer.com/motion/introduction/
+* Custom Cursor : https://www.npmjs.com/package/react-animated-cursor
 
