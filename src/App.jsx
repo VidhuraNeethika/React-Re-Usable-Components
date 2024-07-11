@@ -9,6 +9,7 @@ import {StairTransition} from "./components/StairTransition.jsx";
 import { Drawer} from "./components/Drawer.jsx";
 import {BottomDrawer} from "./components/BottomDrawer.jsx";
 import AnimatedCursor from "react-animated-cursor";
+import SampleMap from "./components/SampleMap.jsx";
 
 function App() {
 
@@ -40,6 +41,7 @@ function App() {
                         <GalleryWithFilters/>
                         <Drawer/>
                         <BottomDrawer/>
+                        <SampleMap/>
                     </div>
                 </div>
             </PageTransition>

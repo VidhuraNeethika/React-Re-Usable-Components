@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mapboxgl-ctrl{
+    display: none;
+}
+
+a.mapboxgl-ctrl-logo{
+    display: none;
+}
