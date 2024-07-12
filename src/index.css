@@ -9,3 +9,12 @@
 a.mapboxgl-ctrl-logo{
     display: none;
 }
+
+.marker{
+    @apply  bg-blue-500 relative block w-4 h-4 cursor-pointer rounded-full;
+}
+
+.marker::after{
+    content: '';
+    @apply animate-ping bg-blue-500 absolute block w-4 h-4 cursor-pointer rounded-full;
+}
